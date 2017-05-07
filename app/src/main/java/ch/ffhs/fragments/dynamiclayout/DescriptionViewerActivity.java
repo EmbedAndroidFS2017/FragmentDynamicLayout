@@ -38,86 +38,57 @@ public class DescriptionViewerActivity extends Activity implements
 
 		setContentView(R.layout.main);
 
-		// Get references to the TeamFragment and to the DescriptionsFragment
-		mTeamFrameLayout = (FrameLayout) findViewById(R.id.team_fragment_container);
-		mDescriptionsFrameLayout = (FrameLayout) findViewById(R.id.description_fragment_container);
+		// TODO: Get references to the TeamFragment and to the DescriptionsFragment
+		/*
+		mTeamFrameLayout = ...;
+		mDescriptionsFrameLayout = ...;
+		*/
 
+		// TODO: Get a reference to the FragmentManager
+		/*
+		mFragmentManager = ...
+		*/
 
-		// Get a reference to the FragmentManager
-		mFragmentManager = getFragmentManager();
-
+		// TODO:
 		// Start a new FragmentTransaction
-		FragmentTransaction fragmentTransaction = mFragmentManager
-				.beginTransaction();
-
 		// Add the TeamFragment to the layout
-		fragmentTransaction.add(R.id.team_fragment_container,
-				new TeamsFragment());
-		
 		// Commit the FragmentTransaction
-		fragmentTransaction.commit();
-
-		// Add a OnBackStackChangedListener to reset the layout when the back stack changes
-		mFragmentManager
-				.addOnBackStackChangedListener(new FragmentManager.OnBackStackChangedListener() {
-					public void onBackStackChanged() {
-						setLayout();
-					}
-				});
+		// Add a OnBackStackChangedListener on the manager to reset the layout when the back stack changes
 	}
 
 	private void setLayout() {
-		
+
+		//TODO:
 		// Determine whether the DescriptionFragment has been added
 		if (!mDescriptionFragment.isAdded()) {
-			
-			// Make the TeamFragment occupy the entire layout
-			mTeamFrameLayout.setLayoutParams(new LinearLayout.LayoutParams(
-					MATCH_PARENT, MATCH_PARENT));
-			mDescriptionsFrameLayout.setLayoutParams(new LinearLayout.LayoutParams(0,
-					MATCH_PARENT));
+			// Make the TeamFragment occupy the entire layout, DescriptionFragment is of width 0.
 		} else {
-
 			// Make the TeamLayout take 1/3 of the layout's width
-			mTeamFrameLayout.setLayoutParams(new LinearLayout.LayoutParams(0,
-					MATCH_PARENT, 1f));
-			
 			// Make the DescriptionLayout take 2/3's of the layout's width
-			mDescriptionsFrameLayout.setLayoutParams(new LinearLayout.LayoutParams(0,
-					MATCH_PARENT, 2f));
 		}
 	}
 
 	// Called when the user selects an item in the TeamsFragment
 	@Override
 	public void onListSelection(int index) {
-
+		//TODO:
 		// If the DescriptionFragment has not been added, add it now
 		if (!mDescriptionFragment.isAdded()) {
-		
 			// Start a new FragmentTransaction
-			FragmentTransaction fragmentTransaction = mFragmentManager
-					.beginTransaction();
 
 			// Add the DescriptionFragment to the layout
-			fragmentTransaction.add(R.id.description_fragment_container,
-					mDescriptionFragment);
 
-			// Add this FragmentTransaction to the backstack
-			fragmentTransaction.addToBackStack(null);
-			
+			// Add this FragmentTransaction to the backstack => addToBackStack auf FragmentTransaction
+
 			// Commit the FragmentTransaction
-			fragmentTransaction.commit();
-			
+
 			// Force Android to execute the committed FragmentTransaction
 			mFragmentManager.executePendingTransactions();
 		}
 		
 		if (mDescriptionFragment.getShownIndex() != index) {
-
 			// Tell the DescriptionFragment to show the description string at position index
 			mDescriptionFragment.showDescriptionAtIndex(index);
-		
 		}
 	}
 

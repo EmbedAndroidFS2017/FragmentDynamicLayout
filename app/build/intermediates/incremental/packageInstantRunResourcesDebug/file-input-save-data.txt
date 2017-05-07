@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun May 07 18:12:27 CEST 2017
+#Sun May 07 20:06:57 CEST 2017
 2.base=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_
 5.file=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\team_item.xml
 5.set=ANDROID_RESOURCE
