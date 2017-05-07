@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\projects\FragmentDynamicLayout\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44c0c7193d2a8f5f7de3689db4ed92a397c752f6">
+        <dex dex="C:\projects\FragmentDynamicLayout\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_39044ffd67648e0ee94abf07e2122d84fba4264a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\projects\FragmentDynamicLayout\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\projects\FragmentDynamicLayout\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0519070a80fb6e170b2232270d9c9d6c95616194\classes.dex" />
+    </item>
+
+</items>

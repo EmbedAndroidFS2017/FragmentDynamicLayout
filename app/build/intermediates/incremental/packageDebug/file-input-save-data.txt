@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Sun May 07 18:12:27 CEST 2017
+2.base=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0519070a80fb6e170b2232270d9c9d6c95616194\\classes.dex
+5.set=DEX
+3.base=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+2.set=ANDROID_RESOURCE
+4.base=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_39044ffd67648e0ee94abf07e2122d84fba4264a
+7.file=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\team_item.xml
+7.set=ANDROID_RESOURCE
+count=8
+0.file=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+5.base=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0519070a80fb6e170b2232270d9c9d6c95616194
+4.set=DEX
+6.base=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\description_fragment.xml
+1.set=ANDROID_RESOURCE
+7.base=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+6.set=ANDROID_RESOURCE
+0.base=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
+3.set=ANDROID_RESOURCE
+1.base=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_39044ffd67648e0ee94abf07e2122d84fba4264a\\classes.dex
+0.set=ANDROID_RESOURCE

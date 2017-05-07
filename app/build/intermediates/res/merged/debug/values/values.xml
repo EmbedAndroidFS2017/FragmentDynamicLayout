@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Descriptions">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id turpis sapien. Aenean non tincidunt ex. </item>
+        <item>Suspendisse ullamcorper turpis arcu, et commodo libero malesuada ut. Nulla fringilla a justo ut condimentum. Nam eget aliquam quam, eu pulvinar nisi. </item>
+        <item>Mauris vitae laoreet quam. Donec id sollicitudin elit. Curabitur nec leo eget velit congue maximus vel sit amet ligula. Ut faucibus quis urna ut suscipit.</item>
+        <item>Sed elementum, velit at accumsan gravida, sem massa elementum lacus, non suscipit purus justo sed nisi. Nullam gravida, neque non finibus condimentum, elit mi tristique dui, ut varius nibh ex vel turpis.</item>
+    </string-array>
+    <string-array name="Teams">
+        <item>Know Your Music</item>
+        <item>Meetpoint</item>
+        <item>JoGiRo</item>
+        <item>LARA Quiz</item>
+    </string-array>
+    <string name="app_name">FragmentDynamicLayout</string>
+</resources>

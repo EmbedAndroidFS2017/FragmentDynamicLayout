@@ -1,0 +1,7 @@
+#Sun May 07 18:12:27 CEST 2017
+base.0=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0519070a80fb6e170b2232270d9c9d6c95616194
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_39044ffd67648e0ee94abf07e2122d84fba4264a\\classes.dex
+base.1=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_39044ffd67648e0ee94abf07e2122d84fba4264a
+file.0=C\:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0519070a80fb6e170b2232270d9c9d6c95616194\\classes.dex

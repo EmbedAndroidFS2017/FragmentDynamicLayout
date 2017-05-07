@@ -1,0 +1,61 @@
+[
+    {
+        "outputFile": "C:\\projects\\FragmentDynamicLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 19,
+                    "endOffset": 811
+                },
+                "from": {
+                    "file": "C:\\projects\\FragmentDynamicLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 302,
+                        "endLine": 14,
+                        "endColumn": 19,
+                        "endOffset": 1063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 816,
+                    "endLine": 13,
+                    "endColumn": 19,
+                    "endOffset": 990
+                },
+                "from": {
+                    "file": "C:\\projects\\FragmentDynamicLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endLine": 8,
+                        "endColumn": 19,
+                        "endOffset": 296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 995,
+                    "endColumn": 58,
+                    "endOffset": 1049
+                },
+                "from": {
+                    "file": "C:\\projects\\FragmentDynamicLayout\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            }
+        ]
+    }
+]
